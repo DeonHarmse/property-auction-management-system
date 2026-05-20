@@ -1,0 +1,84 @@
+DROP TABLE tblSellers;
+CREATE TABLE tblSellers(
+   Seller_ID          VARCHAR(13) NOT NULL PRIMARY KEY
+  ,Seller_Cell_Number VARCHAR(10) 
+  ,Name               VARCHAR(9)
+  ,Surname            VARCHAR(13)
+  ,Email              VARCHAR(30) 
+  ,Property_ID        VARCHAR(25) 
+);
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9505185425446','0467568400','Steward','Bengough','sbengough0@bloglines.com','7874 Amoth Junction');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5606278419145','0972842917','Giovanna','Van Oort','gvanoort1@soup.io','085 Rowland Plaza');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5302262959314','0000718022','Ilysa','Ekless','iekless2@g.co','8 American Center');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4006174464841','0698904759','Nanci','Hasty','nhasty3@godaddy.com','3 Union Court');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9708043585221','0746960087','Even','Scowcroft','escowcroft4@java.com','905 Forest Dale Lane');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4209242611291','0153144664','Maggie','Mattiello','mmattiello5@unblog.fr','2146 Fieldstone Hill');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4608233577663','0216578435','Skipton','Greene','sgreene6@dyndns.org','13851 Warbler Alley');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8701076628342','0265635824','Hartwell','Bracknell','hbracknell7@phpbb.com','8 Continental Way');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4403166863814','0214680787','Aggi','Braunstein','abraunstein8@alexa.com','7760 Corben Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9506241873175','0545658936','Timmi','Libreros','tlibreros9@house.gov','1756 Farmco Point');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8703027394692','0126140601','Haroun','Scocroft','hscocrofta@cocolog-nifty.com','21 Mallory Circle');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8306142134275','0524695287','Artus','Stedell','astedellb@stanford.edu','19 Glacier Hill Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4708219547548','0787965399','Fredelia','Hamsson','fhamssonc@meetup.com','2196 Carberry Hill');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7601142287673','0185815730','Nell','Pert','npertd@vistaprint.com','51 Delaware Circle');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9706036947336','0572131207','Vivienne','Albery','valberye@unc.edu','47926 Veith Circle');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7801142594595','0274135982','Myrna','Bann','mbannf@mail.ru','310 Vidon Parkway');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8409078728812','0741782463','Esme','Swinyard','eswinyardg@cnet.com','914 Nobel Drive');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9707222384637','0060846831','Jarid','Mansbridge','jmansbridgeh@lulu.com','0039 Pawling Way');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4406151369518','0065658771','Bear','Kohnen','bkohneni@artisteer.com','126 Gerald Lane');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4702197754418','0963533466','Jewelle','Pentelow','jpentelowj@sina.com.cn','9 Carberry Street');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9802112971589','0506135071','Tamara','Fines','tfinesk@washingtonpost.com','42343 Melvin Junction');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6206183432894','0545504584','Ansell','Bradnock','abradnockl@wp.com','3948 Paget Court');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7301169336577','0075003856','Raquel','Cherryman','rcherrymanm@360.cn','4293 Menomonie Street');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6302074883731','0379178149','Etienne','Hansell','ehanselln@statcounter.com','05243 Hintze Way');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5604132649735','0072677720','Mame','Shotbolt','mshotbolto@skype.com','01744 Acker Road');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9004047946828','0003298578','Debbi','Fenwick','dfenwickp@usatoday.com','2 Victoria Lane');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4308126622644','0995553889','Jereme','Micco','jmiccoq@washington.edu','6 Lyons Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7302273498544','0897077975','Kalie','St. Queintain','kstqueintainr@prnewswire.com','56431 Saint Paul Terrace');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8505172493995','0811775719','Brittney','Presswell','bpresswells@ft.com','26 Scoville Street');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9604211784665','0717654789','Hal','Brelsford','hbrelsfordt@noaa.gov','54332 Larry Pass');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8004282837837','0166118594','Evonne','Boulding','ebouldingu@weibo.com','877 Luster Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7308265167271','0281998129','Kleon','Cakes','kcakesv@europa.eu','9 Lawn Alley');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7703073993556','0442351374','Kit','Lalevee','klaleveew@facebook.com','985 Jana Place');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4506263583319','0158149234','Maria','Blasoni','mblasonix@blogtalkradio.com','563 Northport Trail');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5505075689457','0676840398','Ardisj','Abrey','aabreyy@washington.edu','3 Village Hill');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8602073191296','0340834603','Etty','Garry','egarryz@craigslist.org','96264 Twin Pines Plaza');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9903248762415','0521908979','Mordy','Erangey','merangey10@mysql.com','78 Bluejay Trail');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6405211475528','0823189836','Holt','Crauford','hcrauford11@mapquest.com','30 Boyd Place');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6307097896396','0547440953','Leonidas','de Guerre','ldeguerre12@reddit.com','8320 Kim Trail');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8104044787639','0226029989','Wilona','Ivanaev','wivanaev13@theglobeandmail.com','6450 Sugar Road');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5902043449814','0881011601','Hirsch','Extal','hextal14@google.ca','12 Ilene Lane');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6102231812431','0221287677','Corly','Pressland','cpressland15@eventbrite.com','7129 Bowman Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9502177629874','0118403751','Timoteo','Grimbleby','tgrimbleby16@123-reg.co.uk','348 Briar Crest Trail');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9308026826135','0789883498','Krystal','McCulley','kmcculley17@exblog.jp','6 Saint Paul Point');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9003198444182','0743425860','Starla','Selvey','sselvey18@netlog.com','2 Stephen Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9704032924256','0751500688','Fleurette','Bruggeman','fbruggeman19@rediff.com','86635 Schurz Center');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6309137772265','0788541429','Catharine','Bartomeu','cbartomeu1a@gov.uk','533 Graedel Circle');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4707047836211','0063788425','Patrice','Girauld','pgirauld1b@sina.com.cn','02 Knutson Trail');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6808288196739','0713756488','Tate','Connold','tconnold1c@buzzfeed.com','7 Brickson Park Avenue');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8106194132813','0796317979','Inessa','McBryde','imcbryde1d@moonfruit.com','3 Carioca Trail');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5009036731112','0232626718','Job','Pendreigh','jpendreigh1e@about.com','6 Hanover Drive');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9402181712989','0151781909','Vance','Castro','vcastro1f@buzzfeed.com','04175 Anzinger Alley');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6906032948819','0168371036','Orelee','Ordemann','oordemann1g@sciencedaily.com','40 Golf Parkway');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8107014677235','0654521457','Pennie','McLauchlin','pmclauchlin1h@opensource.org','93271 Erie Road');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8507277154519','0429724849','Adriana','Northall','anorthall1i@geocities.jp','2 Eagan Pass');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4905179453794','0562705202','Zaccaria','Abramov','zabramov1j@seesaa.net','8277 Garrison Road');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7404166352412','0351812727','Kippy','Dunmuir','kdunmuir1k@statcounter.com','043 Milwaukee Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7202278291932','0112051919','Simone','Thirsk','sthirsk1l@geocities.com','238 Bluestem Junction');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8902061767339','0028089021','Barnaby','Pre','bpre1m@buzzfeed.com','0305 Elka Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9505054815952','0202748734','Kingston','MacCole','kmaccole1n@nyu.edu','610 Arrowood Alley');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4909058359612','0069403939','Daisy','Valti','dvalti1o@miitbeian.gov.cn','3819 Dottie Terrace');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('6104191877796','0993370946','Maxie','Stuchbery','mstuchbery1p@google.co.uk','3361 Carberry Way');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5707293256295','0209022746','Maud','Mingey','mmingey1q@zdnet.com','9 Talmadge Parkway');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9205161898629','0430253995','Norah','Lock','nlock1r@examiner.com','43 Dixon Place');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9702071932813','0022409124','Jacky','Domini','jdomini1s@slashdot.org','682 Kenwood Circle');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8101041756388','0310851249','Cristal','Millican','cmillican1t@amazon.co.uk','90 Katie Terrace');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('7105092714515','0593422024','Alaric','Kytley','akytley1u@army.mil','62 Stoughton Alley');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5905211727562','0472105891','Jannelle','Moncrieffe','jmoncrieffe1v@cyberchimps.com','94856 American Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8906145161636','0273418286','Ambur','Bodman','abodman1w@howstuffworks.com','2 Northwestern Alley');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('8309079181466','0789868513','Rebeca','Garvagh','rgarvagh1x@barnesandnoble.com','33343 Nelson Parkway');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('9303054694242','0999676858','Rheta','Jencey','rjencey1y@dion.ne.jp','00932 Arizona Crossing');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5209075837853','0271591627','Augusta','Kearney','akearney1z@yellowbook.com','51423 Doe Crossing Avenue');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5006272975641','0218618039','Shelia','Glassborow','sglassborow20@wp.com','350 Randy Center');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('5105176563124','0340777321','Parnell','Rennocks','prennocks21@wired.com','4933 Union Circle');
+INSERT INTO tblSellers(Seller_ID,Seller_Cell_Number,Name,Surname,Email,Property_ID) VALUES ('4604291821675','0906336839','Zitella','Rosenwald','zrosenwald22@vistaprint.com','73574 New Castle Road');

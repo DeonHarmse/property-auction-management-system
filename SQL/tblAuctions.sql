@@ -1,0 +1,112 @@
+DROP TABLE tblAuctions;
+CREATE TABLE tblAuctions (
+    Auction_ID INTEGER NOT NULL PRIMARY KEY,
+    DateTime_Auctioned DATETIME,
+    Location VARCHAR(15),
+    Status VARCHAR(9),
+    Winning_Bid INTEGER,
+    Buyers_ID VARCHAR(13),
+    Auctioneer_ID VARCHAR(13),
+    FOREIGN KEY (Buyers_ID) REFERENCES tblBuyers(Buyers_ID),
+    FOREIGN KEY (Auctioneer_ID) REFERENCES tblUsers(Users_ID)
+);
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (1,'2024-08-19 15:36:51','Bredasdorp','Completed',7670000,'6801162523941','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (2,'2023-01-19 23:59:55','Arniston','Upcoming',2060000,'8002247994886','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (3,'2023-02-03 01:45:56','Elim','Upcoming',5080000,'9404124366859','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (4,'2022-06-25 00:21:50','Struisbaai','Completed',3640000,'7402166896453','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (5,'2022-05-09 09:49:55','Arniston','Completed',7580000,'4306055985486','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (6,'2022-01-04 06:51:21','Bredasdorp','Upcoming',9980000,'4009048845585','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (7,'2023-10-14 12:06:34','Bredasdorp','Upcoming',1780000,'5802064236289','7909098564184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (8,'2022-02-25 18:01:49','Bredasdorp','Upcoming',7830000,'7402166896453','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (9,'2024-12-12 05:06:51','Arniston','Upcoming',6130000,'8306179254775','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (10,'2022-07-07 19:52:06','Napier','Completed',4110000,'8404183221232','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (11,'2022-04-26 10:32:56','Napier','Upcoming',8550000,'5003221646447','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (12,'2023-12-15 17:08:01','Bredasdorp','Completed',8590000,'6704148689575','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (13,'2023-06-11 16:48:12','Arniston','Completed',7100000,'4508246245818','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (14,'2023-10-09 09:45:56','Arniston','Upcoming',2600000,'4009048845585','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (15,'2024-05-17 10:07:29','Napier','Upcoming',9610000,'8404183221232','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (16,'2022-05-10 17:47:39','Struisbaai','Completed',9520000,'7402171149376','8708275323643');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (17,'2024-08-08 12:16:33','Elim','Upcoming',3360000,'9508083928795','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (18,'2024-01-17 09:44:28','Arniston','Upcoming',3930000,'5804039371789','7909098564184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (19,'2022-01-16 20:25:56','Struisbaai','Upcoming',7190000,'6003261179715','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (20,'2023-10-09 03:02:45','Arniston','Upcoming',3850000,'7102049533657','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (21,'2023-05-24 00:33:30','Bredasdorp','Completed',7540000,'7807118466335','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (22,'2022-08-20 11:32:03','Bredasdorp','Upcoming',6920000,'6302185258314','8708275323643');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (23,'2023-07-13 15:30:19','Struisbaai','Completed',7420000,'7203151454762','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (24,'2022-11-14 09:12:36','Bredasdorp','Upcoming',5190000,'8306179254775','7909098564184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (25,'2024-05-14 12:54:05','Napier','Upcoming',4490000,'8604215892498','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (26,'2022-12-10 15:19:13','Napier','Completed',8480000,'9103153783147','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (27,'2022-04-29 23:56:20','Arniston','Completed',2270000,'6302185258314','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (28,'2022-06-02 07:01:51','Struisbaai','Completed',7660000,'5002231386443','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (29,'2024-06-16 06:22:41','Napier','Upcoming',2660000,'5501027187859','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (30,'2023-06-27 07:14:54','Napier','Upcoming',4220000,'4708049412684','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (31,'2022-08-16 09:06:24','Elim','Completed',3550000,'8604021443622','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (32,'2024-11-09 00:14:41','Arniston','Upcoming',2550000,'5205133139694','8708275323643');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (33,'2023-07-02 04:03:17','Napier','Completed',7670000,'6003261179715','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (34,'2024-09-05 16:12:22','Arniston','Upcoming',2940000,'8601087216246','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (35,'2023-09-03 04:48:07','Napier','Completed',1130000,'6504195633275','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (36,'2023-04-09 10:21:30','Napier','Completed',9550000,'9801162829279','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (37,'2022-07-11 00:46:09','Arniston','Upcoming',5690000,'9102095586118','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (38,'2022-04-29 05:12:43','Bredasdorp','Completed',2980000,'5605026615936','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (39,'2022-11-20 10:56:06','Struisbaai','Completed',8800000,'5008018383447','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (40,'2022-10-16 22:10:07','Napier','Upcoming',2500000,'8808081941462','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (41,'2022-01-10 15:24:45','Napier','Completed',6270000,'9508083928795','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (42,'2022-07-08 16:57:59','Bredasdorp','Upcoming',1690000,'6504088539814','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (43,'2023-08-07 18:29:53','Napier','Completed',7410000,'4309177452742','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (44,'2022-08-30 10:28:19','Bredasdorp','Upcoming',3830000,'8605287324463','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (45,'2023-05-04 00:45:49','Bredasdorp','Upcoming',2590000,'8109116419143','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (46,'2024-07-02 03:51:02','Elim','Completed',3340000,'4708049412684','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (47,'2023-01-17 13:54:13','Napier','Completed',7760000,'8306179254775','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (48,'2022-07-21 10:50:05','Bredasdorp','Upcoming',4210000,'9301197512386','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (49,'2023-03-24 13:54:17','Elim','Completed',8780000,'6003261179715','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (50,'2022-05-08 03:14:09','Bredasdorp','Upcoming',3720000,'5205133139694','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (51,'2024-01-31 18:44:31','Arniston','Upcoming',9930000,'8604021443622','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (52,'2022-12-28 19:52:35','Elim','Upcoming',2200000,'9801162829279','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (53,'2024-12-07 17:25:35','Bredasdorp','Upcoming',1190000,'5002231386443','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (54,'2022-11-08 21:19:59','Napier','Upcoming',6280000,'4603213247483','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (55,'2022-04-23 04:56:57','Arniston','Completed',3930000,'8109116419143','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (56,'2022-01-20 09:00:03','Elim','Upcoming',2080000,'4709087861198','7909098564184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (57,'2023-03-18 13:16:32','Elim','Upcoming',8960000,'6003261179715','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (58,'2024-03-21 08:48:08','Elim','Completed',8160000,'4104062453157','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (59,'2024-01-06 20:29:46','Bredasdorp','Upcoming',4710000,'4001271466984','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (60,'2022-09-18 21:41:24','Struisbaai','Upcoming',5250000,'4309177452742','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (61,'2023-11-21 21:10:02','Elim','Upcoming',2410000,'8605287324463','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (62,'2023-10-21 21:44:18','Napier','Completed',2310000,'4006233674715','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (63,'2024-07-28 21:19:56','Elim','Upcoming',2690000,'4101259633162','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (64,'2022-06-12 18:16:22','Napier','Completed',8160000,'5604015684281','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (65,'2023-01-11 22:06:57','Napier','Completed',5640000,'9102095586118','7909098564184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (66,'2024-04-14 12:37:34','Arniston','Upcoming',6890000,'5002231386443','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (67,'2023-01-31 08:54:47','Bredasdorp','Upcoming',5840000,'5002231386443','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (68,'2024-12-23 22:40:32','Napier','Completed',9700000,'6607212734991','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (69,'2022-08-26 18:39:56','Elim','Completed',4190000,'8404183221232','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (70,'2024-09-15 16:10:01','Elim','Upcoming',7980000,'9008242755496','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (71,'2023-10-02 05:50:07','Struisbaai','Upcoming',7730000,'6108152952749','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (72,'2022-10-18 01:14:37','Napier','Completed',1350000,'5804039371789','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (73,'2023-10-14 14:54:40','Napier','Upcoming',2610000,'9102095586118','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (74,'2024-12-24 07:30:17','Elim','Completed',4610000,'6302185258314','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (75,'2022-04-29 04:02:02','Bredasdorp','Upcoming',4520000,'9102253512726','8708275323643');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (76,'2022-06-05 11:09:55','Arniston','Upcoming',3600000,'8404183221232','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (77,'2024-11-23 03:53:26','Arniston','Upcoming',1490000,'6808213264297','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (78,'2023-01-15 12:50:34','Arniston','Upcoming',2140000,'6704148689575','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (79,'2024-12-29 15:56:45','Struisbaai','Upcoming',6180000,'4009048845585','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (80,'2024-01-06 20:51:30','Arniston','Upcoming',7860000,'5604015684281','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (81,'2024-06-04 22:19:26','Elim','Upcoming',3940000,'8808081941462','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (82,'2022-01-31 17:12:34','Elim','Upcoming',5220000,'8306142213279','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (83,'2023-06-03 02:19:40','Struisbaai','Completed',1240000,'7707258612594','5108243163184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (84,'2022-12-24 09:20:18','Struisbaai','Completed',1260000,'4709087861198','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (85,'2024-04-06 09:38:21','Bredasdorp','Completed',9270000,'8808081941462','9905126754723');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (86,'2024-02-26 12:40:48','Bredasdorp','Completed',4090000,'6704148689575','8708275323643');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (87,'2022-11-27 04:39:35','Struisbaai','Upcoming',2590000,'8404183221232','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (88,'2022-11-17 09:13:04','Bredasdorp','Upcoming',8040000,'9801162829279','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (89,'2022-02-06 11:52:36','Arniston','Completed',3500000,'4309177452742','7006179673286');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (90,'2024-08-31 05:16:20','Arniston','Completed',6800000,'5804039371789','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (91,'2024-07-19 16:20:31','Struisbaai','Completed',7050000,'5802064236289','7909098564184');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (92,'2022-01-28 02:02:29','Bredasdorp','Completed',9750000,'9102095586118','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (93,'2023-07-30 18:31:55','Struisbaai','Upcoming',3410000,'6509281277854','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (94,'2023-09-02 03:10:42','Elim','Completed',6320000,'5604015684281','4507245276496');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (95,'2024-01-17 05:04:21','Bredasdorp','Completed',1400000,'6306275352594','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (96,'2024-04-17 21:51:56','Elim','Completed',7750000,'5802064236289','7105023277558');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (97,'2023-06-17 01:04:47','Arniston','Completed',6330000,'5802064236289','8603037492452');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (98,'2024-03-14 02:06:08','Struisbaai','Upcoming',8020000,'6302185258314','6809088549159');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (99,'2024-06-24 23:02:54','Napier','Completed',4480000,'6607212734991','7804258292877');
+INSERT INTO tblAuctions(Auction_ID,DateTime_Auctioned,Location,Status,Winning_Bid,Buyers_ID,Auctioneer_ID) VALUES (100,'2022-10-31 01:42:12','Elim','Upcoming',9610000,'5008018383447','6809088549159');
