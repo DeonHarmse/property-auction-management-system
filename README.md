@@ -38,7 +38,7 @@ The application prevents "spaghetti code" structures by enforcing structural mod
 
 A primary technical highlight of this system is the business intelligence engine found inside `uOwner.pas`. To allow the business owner to filter metrics across a shifting combination of interactive controls, the system dynamically parses form element indexes into reusable SQL fragments:
 
-```pascal
+```delphi
 function TfrmOwner.NoOverMonths_NoTotals: string;
 begin
   result := 'SELECT (tblUsers.Users_Name & " " & tblUsers.Users_Surname) AS Full_Name, SUM(tblAuctions.Winning_Bid * 7/100) AS TotalEarned '
@@ -52,19 +52,46 @@ end;
 
 ## Application Showcase & Screenshots
 
-*To make your repository stand out, add screenshots of your app's interface here. Create a folder named `screenshots` in your repository and replace the placeholders below.*
-
 ### 1. Unified Access Portal (Role-Based Authentication)
-Provides encrypted validation checks across unique access hierarchies.
-![Authentication Portal](screenshots/login_screen.png)
+Provides clean validation check gateways across unique user tiers to secure underlying operational tables.
 
-### 2. Live Transactional Bidding Screen
-Handles rapid increment alterations, buyer profiles, and reserve-price threshold assertions.
-![Live Auction Panel](screenshots/bidding_engine.png)
+![Unified Access Portal](screenshots/login.png)
 
-### 3. Business Intelligence Analytics Dashboard
-Dynamically captures form input matrices and renders real-time relational SQL aggregate summaries onto a graphical axis.
-![Analytics Dashboard](screenshots/owner_graph.png)
+---
+
+### 2. User Administration Terminal
+Allows full CRUD manipulation of system accounts, job positions, and security credentials over active relational table states.
+
+![User Administration Terminal](screenshots/admin.png)
+
+---
+
+### 3. Client & Property Intake Management
+Coordinates rapid data intake validation boundaries for new sellers, properties, and verification records.
+
+![Client & Property Intake Management](screenshots/reception.png)
+
+---
+
+### 4. Auctioneer Pre-Flight Control Panel & Sales Ledger
+Serves as the operational launchpad for live events. Auctioneers use this interface to query the property registry, assign an active asset to a live bidding session, and review or edit their personal historical sales log ledger.
+
+![Auctioneer Pre-Flight Control Panel](screenshots/dispatch.png)
+
+---
+
+### 5. Live Transactional Bidding Screen
+Handles rapid increment alterations, buyer profiles, and real-time reserve-price threshold validations during live property events.
+
+![Live Transactional Bidding Screen](screenshots/bidding.png)
+
+---
+
+### 6. Business Intelligence Analytics Dashboard
+Dynamically captures variable form control matrices, executes back-end relational SQL aggregate summaries, and renders real-time tracking metrics directly onto a 3D graphical axis.
+
+![Business Intelligence Analytics Dashboard](screenshots/analytics.png)
+![Business Intelligence Analytics Dashboard 2](screenshots/analytics2.png)
 
 ---
 
@@ -79,10 +106,29 @@ Because this is a compiled desktop application, you do not need Delphi or RAD St
 ### Execution Steps
 1. **Download the Repository:** Clone or download this project folder as a `.zip` file to your local machine and extract it.
 2. **Locate the Binary:** Navigate into the deployment folder where the executable is hosted.
-3. **Run the App:** Double-click on `SouthernAuctioneers.exe` *(Note: Replace this name with the exact spelling of your working .exe file)*.
+3. **Run the App:** Double-click on `SouthernAuctioneers.exe`.
 4. **Test Credentials:** You can log in using any of the simulated profiles found inside your initialization database. For example:
+
    * **Username:** `IdetLock4507`
    * **Password:** `dettekwood6496178`
    * **Role Permissions:** Administrator
 
-*Note: Ensure the MS Access database file (`.accdb` or `.mdb`) remains in the exact same directory relative to the `.exe` file so the centralized Data Module (`dmPAT_DB_U.pas`) can establish its local ADO connection loop seamlessly.*
+   * **Username:** `InglTrim8603`
+   * **Password:** `ebertmmell2452574`
+   * **Role Permissions:** Auctioneer
+
+   * **Username:** `JillWhit7105`
+   * **Password:** `layneitter7558888`
+   * **Role Permissions:** Owner
+
+   * **Username:** `ElorPemb7909`
+   * **Password:** `Eloraerton4184806`
+   * **Role Permissions:** Reception
+
+*Note: Ensure the MS Access database file (`.mdb`) remains in the exact same directory relative to the `.exe` file so the centralized Data Module (`dmPAT_DB_U.pas`) can establish its local ADO connection.*
+
+## Developer Evaluation & Licensing
+This repository was developed as part of a high-tier Information Technology Practical Assessment Task (PAT).
+
+* **Final Evaluation Grade: 100%**
+* **License: Distributed under the MIT License. See LICENSE for details.**
