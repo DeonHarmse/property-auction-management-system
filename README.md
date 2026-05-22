@@ -90,7 +90,7 @@ Handles rapid increment alterations, buyer profiles, and real-time reserve-price
 ### 6. Business Intelligence Analytics Dashboard
 Dynamically captures variable form control matrices, executes back-end relational SQL aggregate summaries, and renders real-time tracking metrics directly onto a 3D graphical axis.
 
-![Business Intelligence Analytics Dashboard](screenshots/analytics.png)
+![Business Intelligence Analytics Dashboard](screenshots/analytics1.png)
 ![Business Intelligence Analytics Dashboard 2](screenshots/analytics2.png)
 
 ---
