@@ -109,21 +109,14 @@ Because this is a compiled desktop application, you do not need Delphi or RAD St
 3. **Run the App:** Double-click on `SouthernAuctioneers.exe`.
 4. **Test Credentials:** You can log in using any of the simulated profiles found inside your initialization database. For example:
 
-   * **Username:** `IdetLock4507`
-   * **Password:** `dettekwood6496178`
-   * **Role Permissions:** Administrator
+   4. **Test Credentials:** You can log in using any of the pre-populated test profiles found inside your initialization database to evaluate different dashboard layers:
 
-   * **Username:** `InglTrim8603`
-   * **Password:** `ebertmmell2452574`
-   * **Role Permissions:** Auctioneer
-
-   * **Username:** `JillWhit7105`
-   * **Password:** `layneitter7558888`
-   * **Role Permissions:** Owner
-
-   * **Username:** `ElorPemb7909`
-   * **Password:** `Eloraerton4184806`
-   * **Role Permissions:** Reception
+| Target Role | Username | Password |
+| :--- | :--- | :--- |
+| **Administrator** | `IdetLock4507` | `dettekwood6496178` |
+| **Auctioneer** | `InglTrim8603` | `ebertmmell2452574` |
+| **Business Owner** | `JillWhit7105` | `layneitter7558888` |
+| **Receptionist** | `ElorPemb7909` | `Eloraerton4184806` |
 
 *Note: Ensure the MS Access database file (`.mdb`) remains in the exact same directory relative to the `.exe` file so the centralized Data Module (`dmPAT_DB_U.pas`) can establish its local ADO connection.*
 
